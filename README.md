@@ -12,7 +12,7 @@
 
 ---
 
-<p align="center"> This project aims to use machine learning models to predict the base price for properties, and also to explore Airbnb listing data, in order to help Airbnb hosts maximize their earnings.
+<p align="left"> This project aims to use machine learning models to predict the base price for properties, and also to explore Airbnb listing data, in order to help Airbnb hosts maximize their earnings.
     <br> 
 </p>
 
@@ -25,9 +25,11 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-This project aims to build a suitable model to recommend the best model because it can help the bank filter clients and use available resources more efficiently to achieve their goal. 
+Airbnb is a home-sharing platform that allows home-owners and renters ('hosts') to put their properties ('listings') online, so that guests can pay to stay in them. Hosts are expected to set their own prices for their listings. Although Airbnb and other sites provide some general guidance, there are currently no free services which help hosts price their properties.
 
-The objective of this data analysis project is to demonstrate how the classification and predictive analytics study can be applied to produce real, tangible improvements in a company’s business performance. 
+Airbnb pricing is important to get right, particularly in big cities like London where there is lots of competition and even small differences in prices can make the difference between optimum occupancy and high earnings, or being priced out of the market. It is also a difficult thing to do correctly, in order to balance the price with occupancy (which varies inversely with price) in order to maximise revenue.
+
+This project aims to use machine learning models to predict the base price for properties, and also to explore Airbnb listing data, in order to help Airbnb hosts maximize their earnings.
 
 ## 🎈 Data Understanding and Exploring <a name="data_understanding_and_exploring"></a>
 
