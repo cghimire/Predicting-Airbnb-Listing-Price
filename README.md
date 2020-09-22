@@ -44,26 +44,25 @@ This project aims to use machine learning models to predict the base price for p
 
 *We see the distribution for pricing is strongly skewed right. This makes sense as a majority of the listings on Airbnb are single individual listings and Airbnb does strongly cater to travelers who are looking for cheaper places to stay for short durations of time*.
 
-*This plot shows the number of clients Vs job category. The highest number of clients are from the job category "admin" followed by blue-color category. Similarly,
-there are less students involved in the telemarketing campaign*.
+![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/Correlation.png "Correlation")
 
-
-
-
-## ⛏️ Data Preparation <a name = "data-preparation"></a>
+Correlation matrix shows that price column has positive correlation with beds, bedroom, and accommodates but are not highly correlated (less than 0.50).
 
 ![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/RemoveOutlier_%20campaignVariable.png "Outlier before and after")
 
 *This figure compares the two different plots with outliers and without outliers*.
 
 ## 🚀 Data Modeling <a name = "data-modeling"></a>
-
-In order to model the data, I am performing three data-mining classification techniques: 1) Logistic Regression 2)Decision Tree Model 3) Random Forest Model.
-
-![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/Decision%20Tree_final.png "Decision Tree")
+I used Random Forest and Neural networks model to prpedict listing prices
 
 
-*This figure represents the decision tree structure. For example, If number of employed is greater than 5088, then that client belongs to NO category with 94% of probability: that means the client is more likely to say NO*.
+![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/RMSE.png "RMSE")
+
+The easier metric to understand is the mean absolute error, this means that our predictions were perfect but on average 40.25 away from the true prediction with the random forest model.
+
+RMSE is the difference between model predictions and true values. We get the RMSE value about 76: which means this model is better to predict the airbnb price. We can create models with different hyperparameters tuning to try and boost performance.
+
+
 
 ## Model Evaluation and Conclusion <a name = "model-evaluation-and-conclusion"></a>
 
@@ -78,3 +77,8 @@ I performed three different classification models to classify whether a customer
 
 Since I have been using different data mining techniques, I am expecting the proposed classification models are powerful to predict the output. However, the proposed methods has some limitations. It is not feasible to study all the variables in detail, which might be interesting to predict the output, because of time limitation.
 
+## Future Plan
+
+Due to time constraints, I couldn't able to do indepth analysis of all the features. If I get a chance to do further analysis in the future, I will perform some others ML models such as XGBoost to compare the best fit model to predict listing price. I tried to use XGBoost, but I got error while importing XGBoost library in my MacOS.
+
+To further improve our models, I could include more feature engineering, for example time-based features.
