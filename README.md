@@ -29,6 +29,8 @@ Airbnb pricing is important to get right, particularly in big cities like London
 
 This project aims to use machine learning models to predict the base price for properties, and also to explore Airbnb listing data, in order to help Airbnb hosts maximize their earnings.
 
+![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/Airbnb%20Search.png "Search Options")
+
 ## 🎈 Data Exploration and Preparation <a name="data_exploration_and_preparation"></a>
 
 ![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/Correlation_3.png "Correlation Plot")
@@ -38,7 +40,7 @@ This project aims to use machine learning models to predict the base price for p
 
 *This plot shows the number of clients Vs job category. The highest number of clients are from the job category "admin" followed by blue-color category. Similarly,
 there are less students involved in the telemarketing campaign*.
-![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/Airbnb%20Search.png "Search Options")
+
 
 
 
