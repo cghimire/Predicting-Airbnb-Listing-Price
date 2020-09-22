@@ -48,9 +48,6 @@ This project aims to use machine learning models to predict the base price for p
 
 Correlation matrix shows that price column has positive correlation with beds, bedroom, and accommodates but are not highly correlated (less than 0.50).
 
-![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/RemoveOutlier_%20campaignVariable.png "Outlier before and after")
-
-*This figure compares the two different plots with outliers and without outliers*.
 
 ## 🚀 Data Modeling <a name = "data-modeling"></a>
 I used Random Forest and Neural networks model to prpedict listing prices
