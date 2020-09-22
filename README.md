@@ -44,6 +44,8 @@ This project aims to use machine learning models to predict the base price for p
 
 *We see the distribution for pricing is strongly skewed right. This makes sense as a majority of the listings on Airbnb are single individual listings and Airbnb does strongly cater to travelers who are looking for cheaper places to stay for short durations of time*.
 
+## Correlation: 
+
 ![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/Correlation.png "Correlation")
 
 Correlation matrix shows that price column has positive correlation with beds, bedroom, and accommodates but are not highly correlated (less than 0.50).
