@@ -55,7 +55,8 @@ I used Random Forest and Neural networks model to prpedict listing prices
 
 ![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/RMSE.png "RMSE")
 
-The easier metric to understand is the mean absolute error, this means that our predictions were perfect but on average 40.25 away from the true prediction with the random forest model.
+The easier metric to understand is the mean absolute error, this means that our predictions were perfect but on average 40.25 away from the true prediction with the random forest model. Our model’s MAE is 39.28, which is fairly small given that our data’s PRICE range from 0 to about 2000.
+
 
 RMSE is the difference between model predictions and true values. We get the RMSE value about 76: which means this model is better to predict the airbnb price. We can create models with different hyperparameters tuning to try and boost performance.
 
