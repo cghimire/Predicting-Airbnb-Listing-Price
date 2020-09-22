@@ -67,6 +67,10 @@ RMSE is the difference between model predictions and true values. We get the RMS
 
 Based on my random forest regtression model, we can see that the amenities and accommodates are top 2 important features to predict price. Which makes sence because these two features are important to determine the listing price.
 
+## Neural Network
+
+The score return the coefficient of determination R^2 of the prediction. R square compares the fit of the chosen model with that of a horizontal straight line (the null hypothesis). If the chosen model fits worse than a horizontal line, then R square is negative. So, this is not a best fit model to predict the listing price.
+
 ## Future Plan
 
 Due to time constraints, I couldn't able to do indepth analysis of all the features. If I get a chance to do further analysis in the future, I will perform some others ML models such as XGBoost to compare the best fit model to predict listing price. I tried to use XGBoost, but I got error while importing XGBoost library in my MacOS.
