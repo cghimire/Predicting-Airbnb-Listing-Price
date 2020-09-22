@@ -52,7 +52,7 @@ Correlation matrix shows that price column has positive correlation with beds, b
 
 
 ## 🚀 Data Modeling <a name = "data-modeling"></a>
-I used Random Forest and Neural networks model to prpedict listing prices
+I used Random Forest and Neural networks model to predict listing price
 
 
 ![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/RMSE.png "RMSE")
