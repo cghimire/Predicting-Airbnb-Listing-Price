@@ -18,8 +18,7 @@
 
 ## 📝 Table of Contents
 - [About](#about)
-- [Data Understanding and Exploring](#data_understanding_and_exploring)
-- [Data Preparation](#data-preparation)
+- [Data Exploration and Preparation](#data_exploration_and_preparation)
 - [Data Modeling](#data-modeling)
 - [Model Evaluation and Conclusion](#model-evaluation-and-conclusion)
 - [Acknowledgments](#acknowledgement)
@@ -31,7 +30,7 @@ Airbnb pricing is important to get right, particularly in big cities like London
 
 This project aims to use machine learning models to predict the base price for properties, and also to explore Airbnb listing data, in order to help Airbnb hosts maximize their earnings.
 
-## 🎈 Data Understanding and Exploring <a name="data_understanding_and_exploring"></a>
+## 🎈 Data Exploration and Preparation <a name="data_exploration_and_preparation"></a>
 
 ![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/Correlation_3.png "Correlation Plot")
 
@@ -58,6 +57,9 @@ In order to model the data, I am performing three data-mining classification tec
 
 ## Model Evaluation and Conclusion <a name = "model-evaluation-and-conclusion"></a>
 
+Put the important feature bar chart
+
+
 ![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/AccuracyVsTreeSize.png "Accuracy Vs Treesize")
 
 *This figure shows Effect of increasing tree count on accuracy in Random Forest Model*.
@@ -66,6 +68,3 @@ I performed three different classification models to classify whether a customer
 
 Since I have been using different data mining techniques, I am expecting the proposed classification models are powerful to predict the output. However, the proposed methods has some limitations. It is not feasible to study all the variables in detail, which might be interesting to predict the output, because of time limitation.
 
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-I would like to thank some special peoples who helped me a lot on this project.My terrific professor, Dr. Xinlian Liu, encouraged me to start this
-project. His ideas and suggestions are always valuable for me not only for this project but also for my further career in data science. Finally, I am very thankful to my entire CS 522- Data Mining class for their feedback and encouragement.
