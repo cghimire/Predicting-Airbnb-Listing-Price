@@ -19,8 +19,7 @@
 ## 📝 Table of Contents
 - [About](#about)
 - [Data Exploration and Preparation](#data_exploration_and_preparation)
-- [Data Modeling](#data-modeling)
-- [Model Evaluation and Conclusion](#model-evaluation-and-conclusion)
+- [Data Modeling and Model Evaluation](#data-modeling)
 
 ## 🧐 About <a name = "about"></a>
 Airbnb is a home-sharing platform that allows home-owners and renters ('hosts') to put their properties ('listings') online, so that guests can pay to stay in them. Hosts are expected to set their own prices for their listings. Although Airbnb and other sites provide some general guidance, there are currently no free services which help hosts price their properties.
@@ -51,7 +50,7 @@ This project aims to use machine learning models to predict the base price for p
 Correlation matrix shows that price column has positive correlation with beds, bedroom, and accommodates but are not highly correlated (less than 0.50).
 
 
-## 🚀 Data Modeling <a name = "data-modeling"></a>
+## 🚀 Data Modeling and Model Evaluation <a name = "data-modeling"></a>
 I used Random Forest and Neural networks model to predict listing price
 
 
@@ -62,20 +61,11 @@ The easier metric to understand is the mean absolute error, this means that our 
 
 RMSE is the difference between model predictions and true values. We get the RMSE value about 76: which means this model is better to predict the airbnb price. We can create models with different hyperparameters tuning to try and boost performance.
 
+## Feature Selection:
 
+![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/Feature%20Selection.png "Feature selection")
 
-## Model Evaluation and Conclusion <a name = "model-evaluation-and-conclusion"></a>
-
-Put the important feature bar chart
-
-
-![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/AccuracyVsTreeSize.png "Accuracy Vs Treesize")
-
-*This figure shows Effect of increasing tree count on accuracy in Random Forest Model*.
-
-I performed three different classification models to classify whether a customer would open a bank account or not. Based on the model build for this project, Decision Tree and Random Forest model are more accurate to predict the output. The Random Forest model is a recommended model for this classification problem.
-
-Since I have been using different data mining techniques, I am expecting the proposed classification models are powerful to predict the output. However, the proposed methods has some limitations. It is not feasible to study all the variables in detail, which might be interesting to predict the output, because of time limitation.
+Based on my random forest regtression model, we can see that the amenities and accommodates are top 2 important features to predict price. Which makes sence because these two features are important to determine the listing price.
 
 ## Future Plan
 
