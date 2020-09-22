@@ -35,9 +35,14 @@ This project aims to use machine learning models to predict the base price for p
 
 ![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/metadata.png "Metadata")
 
-*Metadata of the data which contains 20677 records (rows) and 106 features (columns)*
+*Metadata of the data which contains 20677 records (rows) and 106 features (columns). There are some missing values and I applied imputation method to handle those missing values. After i cleaned the date the dimension of the data is reduced to 13837 rows and 24 columns* 
 
-![alt text](https://raw.githubusercontent.com/cghimire/Bank-Marketing-Data-Mining/master/Figures/Job_barplot.png "Job bar plot")
+![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/download.png "Plot categorical features")
+*From the above histogram, it can be seen that one column only contain one category and can be dropped*
+
+![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/price_distribution.png "Distribution of price")
+
+*We see the distribution for pricing is strongly skewed right. This makes sense as a majority of the listings on Airbnb are single individual listings and Airbnb does strongly cater to travelers who are looking for cheaper places to stay for short durations of time*.
 
 *This plot shows the number of clients Vs job category. The highest number of clients are from the job category "admin" followed by blue-color category. Similarly,
 there are less students involved in the telemarketing campaign*.
