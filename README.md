@@ -21,7 +21,6 @@
 - [Data Exploration and Preparation](#data_exploration_and_preparation)
 - [Data Modeling](#data-modeling)
 - [Model Evaluation and Conclusion](#model-evaluation-and-conclusion)
-- [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 Airbnb is a home-sharing platform that allows home-owners and renters ('hosts') to put their properties ('listings') online, so that guests can pay to stay in them. Hosts are expected to set their own prices for their listings. Although Airbnb and other sites provide some general guidance, there are currently no free services which help hosts price their properties.
@@ -39,6 +38,9 @@ This project aims to use machine learning models to predict the base price for p
 
 *This plot shows the number of clients Vs job category. The highest number of clients are from the job category "admin" followed by blue-color category. Similarly,
 there are less students involved in the telemarketing campaign*.
+![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/Airbnb%20Search.png "Search Options")
+
+
 
 ## ⛏️ Data Preparation <a name = "data-preparation"></a>
 
