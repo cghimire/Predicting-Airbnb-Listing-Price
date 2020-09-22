@@ -35,7 +35,7 @@ This project aims to use machine learning models to predict the base price for p
 
 ![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/metadata.png "Metadata")
 
-*Metadata of the data which contains 20677 records (rows) and 106 features (columns). There are some missing values and I applied imputation method to handle those missing values. After i cleaned the date the dimension of the data is reduced to 13837 rows and 24 columns* 
+*Metadata of the data which contains 20677 records (rows) and 106 features (columns). There are some missing values and I applied imputation method to handle those missing values. After I cleaned the date, dimension of the data is reduced to 13837 rows and 24 columns* 
 
 ![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/download.png "Plot categorical features")
 *From the above histogram, it can be seen that one column only contain one category and can be dropped*
