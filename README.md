@@ -33,9 +33,10 @@ This project aims to use machine learning models to predict the base price for p
 
 ## 🎈 Data Exploration and Preparation <a name="data_exploration_and_preparation"></a>
 
-![alt text](https://github.com/cghimire/Bank-Marketing-Data-Mining/blob/master/Figures/Correlation_3.png "Correlation Plot")
+![alt text](https://github.com/cghimire/Predicting-Airbnb-Listing-Price/blob/master/Figures/metadata.png "Metadata")
 
-*This plot demonstrates the correlation between different variables. There is no strong relation between predictors and predicted variable y, however, there is some relationship between predictor variable duration and predicted output y*.
+*Metadata of the data which contains 20677 records (rows) and 106 features (columns)*
+
 ![alt text](https://raw.githubusercontent.com/cghimire/Bank-Marketing-Data-Mining/master/Figures/Job_barplot.png "Job bar plot")
 
 *This plot shows the number of clients Vs job category. The highest number of clients are from the job category "admin" followed by blue-color category. Similarly,
